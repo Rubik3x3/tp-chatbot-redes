@@ -57,7 +57,7 @@ def chat():
                 break
     else:
         # Mensaje por defecto si la red neuronal no está segura
-        response_text = "Lo siento, no logré entender tu consulta sobre el trámite. Por favor, comunícate con Secretaría al correo secretaria@escuelatecnica.edu.ar."
+        response_text = "No fue posible interpretar la consulta. Podés reformularla o comunicarte con la escuela a det_36_de15@bue.edu.ar o al (011) 5197-6276."
 
     return jsonify({"response": response_text})
 

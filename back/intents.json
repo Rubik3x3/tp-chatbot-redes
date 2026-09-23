@@ -1,0 +1,207 @@
+{
+  "intents": [
+    {
+      "tag": "saludo",
+      "patterns": [
+        "Hola",
+        "Holaa",
+        "Buenas",
+        "Buen día",
+        "Buen dia",
+        "Buenos días",
+        "Buenas tardes",
+        "Buenas noches",
+        "Hola, ¿cómo estás?",
+        "Hey"
+      ],
+      "responses": [
+        "Hola, soy el asistente virtual de la Escuela Técnica N° 36 D.E. 15 \"Almirante Guillermo Brown\". Puedo brindarte información sobre constancias, certificados analíticos, prácticas profesionalizantes, mesas de examen y especialidades de la escuela. ¿En qué te puedo ayudar?"
+      ]
+    },
+    {
+      "tag": "despedida",
+      "patterns": [
+        "Chau",
+        "Chao",
+        "Adiós",
+        "Adios",
+        "Nos vemos",
+        "Hasta luego",
+        "Hasta mañana",
+        "Eso es todo"
+      ],
+      "responses": [
+        "Hasta luego. Ante cualquier otra consulta podés volver a escribir."
+      ]
+    },
+    {
+      "tag": "agradecimiento",
+      "patterns": [
+        "Gracias",
+        "Muchas gracias",
+        "Mil gracias",
+        "Grax",
+        "Te agradezco",
+        "Genial, gracias",
+        "Perfecto"
+      ],
+      "responses": [
+        "De nada. ¿Necesitás información sobre algún otro tema?"
+      ]
+    },
+    {
+      "tag": "alumno_regular",
+      "patterns": [
+        "¿Cómo saco la constancia de alumno regular?",
+        "Constancia de alumno regular",
+        "Constancia de alumno",
+        "Costancia de alumno",
+        "Certificado de alumno regular",
+        "Certificado regular",
+        "Necesito un certificado de estudio",
+        "Certificado de escolaridad",
+        "Papel para la obra social",
+        "Constancia para la obra social",
+        "Constancia para la ANSES",
+        "Constancia para el boleto estudiantil",
+        "Necesito un comprobante de que soy alumno",
+        "¿Dónde pido la constancia?"
+      ],
+      "responses": [
+        "La constancia de alumno regular se solicita en la Secretaría de la escuela. Según la normativa de la Ciudad, puede emitirse a partir de la primera semana de clases y se extiende de acuerdo con la asistencia registrada del estudiante. También podés solicitarla por correo a det_36_de15@bue.edu.ar indicando nombre completo, DNI y curso."
+      ]
+    },
+    {
+      "tag": "analitico",
+      "patterns": [
+        "¿Cómo pido el analítico?",
+        "Necesito el analítico",
+        "Quiero el analitico",
+        "Analítico de estudios",
+        "Analitico final",
+        "Analítico parcial",
+        "Certificado analítico",
+        "¿Cuándo me dan el título?",
+        "Título secundario",
+        "Me cambio de escuela, ¿qué papeles necesito?",
+        "Me voy a otra escuela",
+        "Documentación para egresados"
+      ],
+      "responses": [
+        "El certificado analítico se tramita en la Secretaría de la escuela. En caso de cambio de establecimiento se solicita el pase correspondiente. Los plazos de entrega se informan en Secretaría."
+      ]
+    },
+    {
+      "tag": "pasantias",
+      "patterns": [
+        "¿Cuándo empiezan las prácticas profesionalizantes?",
+        "Prácticas profesionalizantes",
+        "Practicas profesionalizantes",
+        "Requisitos para las pasantías",
+        "Requisitos para las pasantias",
+        "Pasantía",
+        "Pasantia",
+        "¿Qué necesito para hacer las prácticas?",
+        "¿En qué año se hacen las pasantías?",
+        "¿Las prácticas son obligatorias?",
+        "Quiero hacer una pasantía en una empresa",
+        "PP de sexto año"
+      ],
+      "responses": [
+        "Las Prácticas Profesionalizantes son una unidad curricular de 6° año en las escuelas técnicas de la Ciudad. Permiten aplicar los saberes de la especialidad en experiencias reales de trabajo. Las fechas y los lugares de práctica los informa la escuela durante el ciclo lectivo."
+      ]
+    },
+    {
+      "tag": "seguridad_talleres",
+      "patterns": [
+        "¿Cuál es el protocolo de seguridad en el taller?",
+        "Protocolo de seguridad",
+        "Normas de seguridad del taller",
+        "Reglas del taller",
+        "Reglas del laboratorio",
+        "¿Qué tengo que llevar al taller?",
+        "¿Es obligatorio el guardapolvo?",
+        "Ropa para el taller",
+        "¿Tengo que usar anteojos de seguridad?",
+        "Elementos de protección personal",
+        "¿Cómo uso las herramientas?",
+        "Uso de maquinas en el taller",
+        "¿Qué hago si hay un accidente en el taller?",
+        "Me lastimé en el taller"
+      ],
+      "responses": [
+        "En talleres y laboratorios se deben respetar las indicaciones del docente a cargo, utilizar los elementos de protección que se soliciten y operar herramientas y equipos solo con su autorización. Ante cualquier accidente es necesario avisar de inmediato al docente."
+      ]
+    },
+    {
+      "tag": "mesas_examen",
+      "patterns": [
+        "¿Cuándo son las mesas de examen?",
+        "Mesas de examen",
+        "Mesas de previas",
+        "Fechas de previas",
+        "¿Cómo rindo una previa?",
+        "Tengo una materia previa",
+        "Me llevé una materia",
+        "Me lleve una materia",
+        "Quiero rendir una materia",
+        "¿Cómo me inscribo para rendir?",
+        "Inscripción a mesas de examen",
+        "Adeudo materias"
+      ],
+      "responses": [
+        "Las materias pendientes de aprobación se rinden en los turnos de examen previstos en el calendario escolar. Las fechas, horarios y el período de inscripción se informan en la escuela. Ante dudas sobre las materias adeudadas, consultá en Preceptoría o Secretaría."
+      ]
+    },
+    {
+      "tag": "equivalencias",
+      "patterns": [
+        "Equivalencias",
+        "¿Cómo rindo equivalencias?",
+        "Tengo que rendir equivalencias",
+        "Vengo de otra escuela",
+        "Me pasé de otra escuela",
+        "Me cambié de colegio",
+        "Materias que no cursé en la otra escuela",
+        "Pase de otra escuela, ¿qué materias tengo que rendir?"
+      ],
+      "responses": [
+        "Los estudiantes que ingresan desde otra escuela o plan de estudios pueden tener que rendir materias por equivalencia. La Secretaría de la escuela analiza la documentación de la institución anterior e indica qué materias corresponde rendir."
+      ]
+    },
+    {
+      "tag": "especialidades",
+      "patterns": [
+        "¿Qué especialidades tiene la escuela?",
+        "Especialidades",
+        "Orientaciones",
+        "¿Qué títulos da la escuela?",
+        "¿Tienen computación?",
+        "¿Tienen construcciones?",
+        "Maestro Mayor de Obras",
+        "Técnico en Computación"
+      ],
+      "responses": [
+        "La escuela ofrece dos especialidades, Computación y Maestro Mayor de Obras. Se dictan clases en turno mañana y turno tarde."
+      ]
+    },
+    {
+      "tag": "contacto",
+      "patterns": [
+        "¿Dónde queda la escuela?",
+        "Dirección de la escuela",
+        "Direccion",
+        "Ubicación",
+        "¿Cómo me contacto con la escuela?",
+        "Contacto",
+        "Mail de la escuela",
+        "Correo de secretaría",
+        "Teléfono de la escuela",
+        "Telefono"
+      ],
+      "responses": [
+        "La escuela se encuentra en Galván 3700, barrio de Saavedra, Ciudad Autónoma de Buenos Aires, dentro del Polo Educativo Saavedra. El teléfono es (011) 5197-6276 y el correo electrónico es det_36_de15@bue.edu.ar. También podés seguir las novedades en Instagram en @et36de15brown."
+      ]
+    }
+  ]
+}

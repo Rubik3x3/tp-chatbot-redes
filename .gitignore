@@ -1,0 +1,6 @@
+back/venv/
+back/__pycache__/
+back/*.h5
+back/*.pkl
+*.pyc
+.DS_Store
